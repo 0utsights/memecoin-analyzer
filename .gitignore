@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Project-specific runtime files
+nul
+high_potential_tokens.txt
+
+# API Keys (if you add a config file later)
+.env
+config.ini
+*_config.py
+
+# OS
+.DS_Store
+Thumbs.db

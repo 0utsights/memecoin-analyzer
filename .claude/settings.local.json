@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python memecoin_analyzer.py:*)",
+      "Bash($env:PYTHONIOENCODING=\"utf-8\")",
+      "Bash(python:*)",
+      "Bash(del:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(nul)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:code.claude.com)",
+      "Bash(dir:*)",
+      "Bash(rm:*)",
+      "WebSearch",
+      "Bash(if not exist .vscode mkdir .vscode)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

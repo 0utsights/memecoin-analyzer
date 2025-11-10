@@ -1,0 +1,10 @@
+{
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.launchArgs": [
+        "-u"
+    ],
+    "terminal.integrated.env.windows": {
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONIOENCODING": "utf-8"
+    }
+}

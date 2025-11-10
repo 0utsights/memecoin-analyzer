@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Scanner (Once)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/pump_scanner_clean.py",
+            "console": "integratedTerminal",
+            "args": ["--mode", "once"],
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+                "PYTHONIOENCODING": "utf-8"
+            }
+        },
+        {
+            "name": "Python: Scanner (Continuous)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/pump_scanner_clean.py",
+            "console": "integratedTerminal",
+            "args": ["--mode", "continuous"],
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+                "PYTHONIOENCODING": "utf-8"
+            }
+        },
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1",
+                "PYTHONIOENCODING": "utf-8"
+            }
+        }
+    ]
+}
